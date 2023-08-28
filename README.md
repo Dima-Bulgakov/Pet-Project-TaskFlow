@@ -16,8 +16,6 @@ iOS pet project · Simple Task Manager / To Do List
 
 - Delete tasks
 
-- Localization EN, UK
-
 - SwiftUI
 
 - UserDefaults
