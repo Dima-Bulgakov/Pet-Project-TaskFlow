@@ -16,13 +16,14 @@ struct TaskRowView: View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 10.0)
-                            .fill(Color.white)
+                            .fill(Color("TextField"))
                             .frame(height: 55)
-            
+                    
             HStack {
                 Text(taskModel.name)
                     .strikethrough(taskModel.isCompleted)
                     .lineLimit(2)
+                    .foregroundColor(Color("Font"))
                 Spacer()
                 Image(systemName: taskModel.isCompleted ? "checkmark.circle" : "circle")
                     .font(.title)
