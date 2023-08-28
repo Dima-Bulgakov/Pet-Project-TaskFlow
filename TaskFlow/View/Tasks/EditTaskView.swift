@@ -25,13 +25,13 @@ struct EditTaskView: View {
             ScrollView {
                 
                 VStack(alignment: .leading) {
-                    Text("editTitle")
+                    Text("EDIT\nYOUR TASK")
                         .font(.largeTitle)
                         .fontWeight(.black)
                         .foregroundColor(.secondary).opacity(0.5)
                         
                     
-                    TextField("editTextField", text: $editeTask)
+                    TextField("Edit Your Task", text: $editeTask)
                         .padding(.horizontal)
                         .frame(height: 55)
                         .background(.background)
@@ -42,7 +42,7 @@ struct EditTaskView: View {
                         }
                         dismiss()
                     } label: {
-                        Text("saveButton")
+                        Text("Save Task")
                             .foregroundColor(Color(UIColor.secondarySystemBackground))
                             .font(.headline)
                             .frame(height: 55)

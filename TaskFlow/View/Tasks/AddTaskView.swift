@@ -24,7 +24,7 @@ struct AddTaskView: View {
                 .padding()
             }
         }
-        .navigationTitle("addTitle")
+        .navigationTitle("Add Task")
     }
 }
 
@@ -48,7 +48,7 @@ struct AddTaskButton: View {
             viewModel.addTask(task: newTask)
             dismiss()
         } label: {
-            Text("addTitle")
+            Text("Add Task")
                 .foregroundColor(Color(UIColor.secondarySystemBackground))
                 .font(.headline)
                 .frame(height: 55)
@@ -69,7 +69,7 @@ struct TextFieldForNewTask: View {
     @Binding var newTask: String
     
     var body: some View {
-        TextField("addTextField", text: $newTask)
+        TextField("Enter Your New Task", text: $newTask)
             .padding(.horizontal)
             .frame(height: 55)
             .background(.background)

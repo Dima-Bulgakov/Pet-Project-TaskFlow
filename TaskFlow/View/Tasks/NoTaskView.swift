@@ -14,7 +14,7 @@ struct NoTaskView: View {
     var body: some View {
             VStack(alignment: .center) {
                 Spacer()
-                Text("noTasks")
+                Text("THERE ARE NO TASKS\nWOULD YOU LIKE\nTO ADD?")
                     .font(.title)
                     .foregroundColor(Color(.white))
                     .fontWeight(.bold)
