@@ -30,9 +30,7 @@ iOS pet project · Simple Task Manager / To Do List
 -->
 </p>
 
-
-![TFBS](https://github.com/Dima-Bulgakov/TaskFlow/assets/111886499/558a88d8-17a6-4db1-80d4-64b062621737)
-
+![TaskFlowBoard](https://github.com/Dima-Bulgakov/TaskFlow/assets/111886499/9ac7cce9-1c53-4c64-9460-07da1ab6156c)
 
 
 ## Tools
