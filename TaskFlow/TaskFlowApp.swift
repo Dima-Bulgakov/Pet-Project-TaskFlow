@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct TaskFlowApp: App {
+    
+    @StateObject var viewModel = ViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                TaskListView()
+                    .navigationBarTitleDisplayMode(.large)
+            }
+            .environmentObject(viewModel)
         }
     }
 }
