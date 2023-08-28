@@ -46,7 +46,6 @@ struct TaskListView: View {
                                                  Image(systemName: "plus")
                                              }))
             }
-                
         }
         .navigationTitle("mainTitle")
     }
