@@ -35,7 +35,7 @@ struct TaskListView: View {
                     .onDelete(perform: viewModel.delete)
                     .onMove(perform: viewModel.move)
                 }
-                .navigationTitle("mainTitle")
+                .navigationTitle("Tasks")
                 .listStyle(GroupedListStyle())
                 .scrollContentBackground(.hidden)
                 
@@ -47,7 +47,7 @@ struct TaskListView: View {
                                              }))
             }
         }
-        .navigationTitle("mainTitle")
+        .navigationTitle("Tasks")
     }
 }
 
